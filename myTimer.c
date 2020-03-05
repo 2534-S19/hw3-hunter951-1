@@ -1,8 +1,8 @@
 /*
  * myTimer.c
  *
- *  Created on:
- *      Author:
+ *  Created on: 3/4/2020
+ *      Author: Hunter Frederick
  */
 
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
@@ -13,7 +13,7 @@
 void initTimer(unsigned int timer, unsigned int preScaler, unsigned int count)
 {
     // For the specified timer and pre-scale value, put the timer in 32-bit periodic mode.
-
+    Timer32_initModule(timer, )
 
     // For the specified timer, pass the count value.
 
